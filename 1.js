@@ -20,11 +20,6 @@ app.get('/about', function(req, res){
  res.render('about');
 });
 
-app.get('/contacts', function(req, res){
- res.render('contacts');
-});
-
-
 
 app.use(function(req, res, next){
  res.status(404);
